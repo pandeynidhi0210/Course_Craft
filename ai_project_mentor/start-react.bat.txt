@@ -1,0 +1,2 @@
+cd /d "C:\Users\YOUR_USERNAME\Documents\resume-ai-frontend"
+start cmd /k "npm start"

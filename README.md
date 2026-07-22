@@ -1,4 +1,6 @@
 CourseCraft – Project Flow (User Workflow)
+
+
 1)Open the Application
 The user lands on the Home page, which introduces the Course Management System.
 A sidebar provides navigation to Home, Add Course, View Courses, About Us, and Contact.
@@ -12,12 +14,18 @@ A form is displayed with fields:
 Course ID
 Course Title
 Course Description
-Add a New Course
+
+
+3)Add a New Course
 The user enters the course details.
 On clicking Add Course, the React frontend sends a POST request to the Spring Boot REST API using Axios.
 The backend validates and stores the course in the database.
 A success notification is displayed.
-View All Courses
+
+![image alt](https://github.com/pandeynidhi0210/Course_Craft/blob/b486aae2f03d12812300fe52eb4c2014943a381f/Add%20a%20New%20Course.png)
+
+
+4)View All Courses
 The user opens the View Courses page.
 React sends a GET request to the backend.
 The backend retrieves all courses from the database and returns them as JSON.

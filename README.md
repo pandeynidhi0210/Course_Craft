@@ -1,8 +1,12 @@
 CourseCraft – Project Flow (User Workflow)
-Open the Application
+1)Open the Application
 The user lands on the Home page, which introduces the Course Management System.
 A sidebar provides navigation to Home, Add Course, View Courses, About Us, and Contact.
-Navigate to Add Course
+
+![image alt](https://github.com/pandeynidhi0210/Course_Craft/blob/aa68c8c1cfabf8ec8519bc2cec8116806f77e754/Open%20the%20Application.png)
+
+
+2)Navigate to Add Course
 The user clicks Add Course from the sidebar.
 A form is displayed with fields:
 Course ID

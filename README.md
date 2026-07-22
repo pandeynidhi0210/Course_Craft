@@ -4,7 +4,6 @@ CourseCraft – Project Flow (User Workflow)
 1)Open the Application
 The user lands on the Home page, which introduces the Course Management System.
 A sidebar provides navigation to Home, Add Course, View Courses, About Us, and Contact.
-
 ![image alt](https://github.com/pandeynidhi0210/Course_Craft/blob/aa68c8c1cfabf8ec8519bc2cec8116806f77e754/Open%20the%20Application.png)
 
 
@@ -14,6 +13,8 @@ A form is displayed with fields:
 Course ID
 Course Title
 Course Description
+
+
 
 
 3)Add a New Course
@@ -30,18 +31,26 @@ The user opens the View Courses page.
 React sends a GET request to the backend.
 The backend retrieves all courses from the database and returns them as JSON.
 React displays each course in a card with its ID, title, description, and action buttons.
-Update an Existing Course
+
+![image alt](https://github.com/pandeynidhi0210/Course_Craft/blob/0ba7bf241127b9ac9aa1db0d8cbba6d68ef45e38/View%20all%20courses.png)
+
+
+5)Update an Existing Course
 The user clicks the Update button for a course.
 The selected course details are loaded into an editable form.
 After making changes, the user submits the form.
 React sends a PUT request to the backend.
 The database is updated, and the latest information is displayed.
-Delete a Course
+
+
+6)Delete a Course
 The user clicks the Delete button.
 React sends a DELETE request to the Spring Boot backend.
 The course is removed from the database.
 A success notification is shown, and the course list refreshes automatically.
-Navigation
+
+
+7)Navigation
 The sidebar allows users to switch between pages without reloading the application using React Router.
 
 

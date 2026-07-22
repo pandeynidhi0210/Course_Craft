@@ -49,6 +49,8 @@ React sends a DELETE request to the Spring Boot backend.
 The course is removed from the database.
 A success notification is shown, and the course list refreshes automatically.
 
+![image alt](https://github.com/pandeynidhi0210/Course_Craft/blob/5b9d5eb819e119cbafffbd8f0a66d904e4d64745/Delete%20a%20course.png)
+
 
 7)Navigation
 The sidebar allows users to switch between pages without reloading the application using React Router.
